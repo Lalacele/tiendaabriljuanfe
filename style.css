@@ -26,3 +26,24 @@ body{
     opacity: 0.4;
     z-index: -1 ;
 }
+.banere{
+    background-image: url("./img/grupo-personas-trabajando-plan-negocios-oficina_1303-15861.avif");
+    padding: 25%;
+    background-attachment: fixed;
+    background-position: top center;
+    background-size: cover;
+    position: relative;
+    z-index: 1;
+}
+.banere::after{
+    content: "";
+    position: absolute;
+    background-color: black;
+    height: 100%;
+    width: 100%;
+    top:0;
+    left:0;
+    opacity: 0.4;
+    z-index: -1 ;
+}
+
