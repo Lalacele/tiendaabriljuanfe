@@ -231,29 +231,29 @@ empleados.forEach(function(empleado){
     let nombre=document.createElement("h3")
     nombre.textContent=empleado.nombre
 
-    let cargo=document.createElement("h3")
+    /*let cargo=document.createElement("h3")
     cargo.classList.add("col")
 
     let telefono=document.createElement("h3")
-    telefono.textContent.add("")
+    telefono.textContent=("")
 
     let correo=document.createElement("h4")
-    correo.classList.add("")
+    
 
-    let salario=document.createElement("h4")
-    salario.classList.add("")
+    let salario=document.createElement("h4")*/
+   
 
     //se asocian las estructuras en orden lógico
+    tarjeta.appendChild(foto)
+    tarjeta.appendChild(nombre)
+    /*tarjeta.appendChild(cargo)
+    tarjeta.appendChild(telefono)
+    tarjeta.appendChild(correo)
+    tarjeta.appendChild(salario)*/
 
-
-    columna.appendChild(foto)
-    columna.appendChild(nombre)
     columna.appendChild(tarjeta)
-    columna.appendChild(columna)
-    columna.appendChild(cargo)
-    columna.appendChild(telefono)
-    columna.appendChild(correo)
-    columna.appendChild(salario)
+    contenedor.appendChild(columna)
+
 
 })
 
